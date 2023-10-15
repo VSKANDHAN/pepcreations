@@ -1,0 +1,10 @@
+$('#nav-open').click(function(){
+    $('.nav-link1').css('display','block')
+    $('#nav-open').css('display','none')
+    $('#nav-close').css('display','block')
+})
+$('#nav-close').click(function(){
+    $('.nav-link1').css('display','none')
+    $('#nav-open').css('display','block')
+    $('#nav-close').css('display','none')
+})
